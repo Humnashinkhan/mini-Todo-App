@@ -1,0 +1,81 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  margin-top: 30px;
+}
+.container{
+  margin-top: 30px;
+  width: 500px;
+  font-size: 16px;
+  min-height: 400px;
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: beige;
+  box-shadow: rgba(0,0,0,0.19) 0px 10px 20px, rgba(0,0,0,0.23) 0px 6px 6px
+}
+.todo-input{
+  outline: none;
+  background: none;
+  border: 2px solid #ccc;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  width: 300px;
+  color: black;
+  border-radius: 5px;
+
+}
+.todo-btn{
+  background: lightblue;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer; 
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.todo-btn:hover{
+  border: 2px solid lightblue;
+  background: white;
+  color: skyblue;
+}
+.list{
+  text-align: left;
+}
+.list ul{
+  margin-top: 30px;
+}
+.list ul li{
+  background-color: lightblue;
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+  padding-left: 30px;
+  position: relative;
+  border-radius: 5px;
+
+
+}
+.dlt-icon{
+  position: absolute;
+  top: 5px;
+  right:25px;
+}
+.edit-icon{
+  position: absolute;
+  top: 5px;
+  right:75px;
+}
